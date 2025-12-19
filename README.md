@@ -286,6 +286,9 @@ Found this helpful? Give it a ⭐️ on GitHub!
 
 For issues or questions, please open an issue on the GitHub repository.
 
+
+```UWC-2025-KD9F7XQ2``` | Built with ❤️ for IGCSE students worldwide
+
 ---
 
 **Note**: This toolkit downloads publicly available past papers. Ensure you have the right to access and use these materials according to your institution's policies and Cambridge's terms of service.
