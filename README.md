@@ -287,7 +287,7 @@ Found this helpful? Give it a ⭐️ on GitHub!
 For issues or questions, please open an issue on the GitHub repository.
 
 
-```Abdalrahman-UWC-2025-KD9F7XQ2``` | Built with ❤️ for IGCSE students worldwide
+```UWC-2025-KD9F7XQ2``` | Built with ❤️ for IGCSE students worldwide
 
 ---
 
