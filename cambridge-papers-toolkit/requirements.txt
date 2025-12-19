@@ -1,0 +1,17 @@
+# Cambridge Past Papers Toolkit - Python Dependencies
+
+# Core PDF manipulation
+PyPDF2>=3.0.0
+pikepdf>=8.0.0
+reportlab>=4.0.0
+
+# HTTP requests for downloading
+requests>=2.31.0
+
+# Optional: For enhanced PDF operations
+# Pillow>=10.0.0
+
+# Note: Ghostscript is required for PDF merging but must be installed separately
+# Windows: https://www.ghostscript.com/
+# Linux: sudo apt-get install ghostscript
+# macOS: brew install ghostscript
