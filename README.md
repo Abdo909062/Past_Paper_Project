@@ -61,23 +61,25 @@ python processing/numbering.py
 ```
 cambridge-papers-toolkit/
 │
-├── download/                    # Paper download scripts
-│   ├── Download.py             # Basic downloader for subject 0971
-│   ├── download_2.py           # Enhanced with MS/QP organization
-│   ├── 0620_paper.py           # Chemistry (0620) specialized downloader
-│   └── Links_hi.py             # URL generator and CSV exporter
+├── .gitignore
+├── project_key.txt              # Contains the project ownership key: UWC-2025-KD9F7XQ2
+├── PROJECT_STRUCTURE.md         # Documentation of the project structure
+├── requirements.txt             # Python dependencies
+└── README.md                    # Project description and usage instructions [ This File ]
 │
-├── validation/                  # PDF integrity tools
-│   ├── health_checker.py       # Scan and validate PDF files
-│   └── cleaner.py              # Repair corrupted PDFs
+├── download/                    # Exam download scripts
+│   ├── Download.py              # Basic downloader for subjects
+│   ├── download_chemistry_0620.py  # Specialized downloader for Chemistry 0620
+│   └── url_generator.py         # Generates URLs and organizes them into CSV
 │
 ├── processing/                  # PDF processing and merging
-│   ├── index.py                # Build indices and merge papers
-│   ├── mixing-index.py         # Combine index with content PDFs
-│   └── numbering.py            # Add page numbers to documents
+│   ├── index_builder.py         # Build indices and merge exam papers
+│   ├── index_mixer.py           # Combine index with content PDFs
+│   └── page_numbering.py        # Add page numbers to documents
 │
-├── requirements.txt             # Python dependencies
-└── README.md                   # This file
+└── validation/                  # PDF integrity and validation tools
+    ├── health_checker.py        # Scan and validate PDF files
+    └── pdf_cleaner.py           # Repair corrupted PDF files
 ```
 
 ## Detailed Usage
